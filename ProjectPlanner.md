@@ -9,18 +9,18 @@
 
 ## Phase 2: Token Authentication
 
-- [ ] Create `authenticate` function in AuthContext
-- [ ] Check token exists (throw error if not)
-- [ ] GET `/authenticate` with Authorization header `Bearer ${token}`
-- [ ] On success, set location to "TUNNEL"
-- [ ] Hook up Tablet form onSubmit
-- [ ] Export `authenticate` in context value
+- [x] Create `authenticate` function in AuthContext
+- [x] Check token exists (throw error if not)
+- [x] GET `/authenticate` with Authorization header `Bearer ${token}`
+- [x] On success, set location to "TUNNEL"
+- [x] Hook up Tablet form onSubmit
+- [x] Export `authenticate` in context value
 
 ## Phase 3: Extensions _Optional if time permits_
 
-- [ ] Store token in sessionStorage
-- [ ] Load token from sessionStorage on mount (useEffect)
-- [ ] Add error handling/feedback UI _Currently just freezes on error_
+- [x] Store token in sessionStorage
+- [x] Load token from sessionStorage on mount (useEffect)
+- [-] Add error handling/feedback UI _Currently just freezes on error_
 
 **= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =**
 **= = = = = = = = = = = = = = = The big takeaway here is context = = = = = = = = = = = = =**
